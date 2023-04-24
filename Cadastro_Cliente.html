@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="Estilo.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+
+<body style="background-color:antiquewhite;">
+    <h1>Cadastro</h1>
+    <form action="Cinema.html" method="post">
+        <label for="Formulario">Preenchimento total do formulário: </label>
+        <progress id="Formulario" value="50" max="100" >50% </progress> <br>
+
+        Nome: <input type="text" name="Nome" value="">
+
+        <br> <label for="appt">Data de nascimento:</label>
+        <input id="date" type="date">
+
+        <br>Telefone:<input type="text" name="Telefone" value="">
+
+        <br>Mês de Adesão:<select name="Mes de Adesao">
+            <option value=""> </option>
+            <option value="Janeiro"> Janeiro</option>
+            <option value="Fevereiro"> Fevereiro</option>
+            <option value="Março"> Março</option>
+            <option value="Abril"> Abril</option>
+            <option value="Maio"> Maio</option>
+            <option value="Junho"> Junho</option>
+            <option value="Julho"> Julho</option>
+            <option value="Agosto"> Agosto</option>
+            <option value="Setembro"> Setembro</option>
+            <option value="Outubro"> Outubro</option>
+            <option value="Novembro"> Novembro</option>
+            <option value="Dezembro"> Dezembro</option>
+        </select>
+        
+        <br>Tema da página:<select name="Tema">
+            <option value="Claro">Claro</option>
+            <option value="Escuro">Escuro</option>
+        </select>
+
+        <br> <label for="appt">Escolha o dia para aplicação do cupom "Primeira Compra":</label>
+        <input id="date" type="date">
+
+        <br> <label for="appt">Escolha um horário para aplicação do cupom "Primeira Compra":</label>
+        <input type="time" id="appt" name="appt"
+               min="09:00" max="21:30" required>
+
+        <br>Número de filmes que prentende assistir na semana:<select name="Quantidade de Filmes">
+            <option value=""> </option>
+            <option value="1"> 1</option>
+            <option value="2"> 2</option>
+            <option value="3"> 3</option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+            <option value="6"> 6</option>
+            <option value="7"> 7</option>
+        </select>
+
+        <br>Preferência de Gênero de Filmes: 
+            <br> Ação: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br> Drama: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br> Romance: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br> Comédia: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br> Suspense: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br> Terror: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br> Ficção Científica: 
+            <input type="range" list="Ação">
+            <datalist id="genero">
+                <option value="0" >
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist> <br>
+
+        <br><input type="submit" value="Confirmar cadastro"> <br>  
+        
+        <br> <a href="Cinema.html">Voltar para tela inicial </a>
+
+
+    </form>
+</body>
+</html>
